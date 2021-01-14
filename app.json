@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ScreenNavigate",
+    "slug": "ScreenNavigate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.ranvir1998.ScreenNavigate",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "169388035967-88c1ppgfnepk5kove6p7vtv1o0kimjje.apps.googleusercontent.com"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.ranvir1998.ScreenNavigate",
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyBise9gOo6Pt2xUWkX58zYB-P5pJPa6Ehw",
+          "certificateHash": "77:42:B5:7F:CA:22:6C:1D:94:C2:27:E8:36:76:72:33:6C:CD:97:A1"
+        }
+      }
+    }
+  }
+}

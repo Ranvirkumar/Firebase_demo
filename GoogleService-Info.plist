@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>169388035967-88c1ppgfnepk5kove6p7vtv1o0kimjje.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.169388035967-88c1ppgfnepk5kove6p7vtv1o0kimjje</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>169388035967-3c3g8rvf1ki4uk8oc86qbf4n9uafo9ai.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDegYWE213AnAe-8PXsfqmqlKqaqPf21eE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>169388035967</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ranvir1998.ScreenNavigate</string>
+	<key>PROJECT_ID</key>
+	<string>screentask-12db2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>screentask-12db2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:169388035967:ios:ba762d49cc6805f69b944a</string>
+	<key>DATABASE_URL</key>
+	<string>https://screentask-12db2.firebaseio.com</string>
+</dict>
+</plist>

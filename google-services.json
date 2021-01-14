@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169388035967",
+    "firebase_url": "https://screentask-12db2.firebaseio.com",
+    "project_id": "screentask-12db2",
+    "storage_bucket": "screentask-12db2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169388035967:android:35021ba247916a1a9b944a",
+        "android_client_info": {
+          "package_name": "com.ranvir1998.ScreenNavigate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169388035967-3c3g8rvf1ki4uk8oc86qbf4n9uafo9ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ranvir1998.ScreenNavigate",
+            "certificate_hash": "7742b57fca226c1d94c227e8367672336ccd97a1"
+          }
+        },
+        {
+          "client_id": "169388035967-1du110c1vdp78ttanrsjic6fav3fr6he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4hJAdBoHDnRbeItK8FSVIKEPKYYJHL58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169388035967-1du110c1vdp78ttanrsjic6fav3fr6he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
