@@ -6,6 +6,7 @@ import Shared from "./Share"
 import Contact from "./Contact"
 import ChangePassword from "./ChangePassword"
 import ChangeEmail from "./ChangeEmail"
+import Chat from "./Chat"
 import {View ,TouchableOpacity,Image,Dimensions} from "react-native"
 import CustomSidebarMenu from "./SideBar"
 import Icon from '@expo/vector-icons/FontAwesome5';
@@ -35,6 +36,9 @@ export default function DashScreen() {
             <Drawer.Screen
                 name="ChangeEmail"
                 component={ChangeEmailStack} />
+            <Drawer.Screen 
+               name="Chat"
+               component={ChatStack}/>
         </Drawer.Navigator>
     );
 }
@@ -78,6 +82,23 @@ const NavigationDrawerStructure = (props)=> {
             component={Contact}
             options={{
               title: 'Contact',
+              headerLeft: ()=> <NavigationDrawerStructure navigationProps={navigation} />,
+              headerStyle: {backgroundColor: 'aqua',height: 55 },
+              headerTintColor: 'orange', 
+              headerTitleStyle: {color: 'darkorange',textAlign: 'center',fontWeight: 'bold',fontSize: 30,fontStyle:"italic"},}}
+          />
+        </Stack.Navigator>
+    );
+  }
+
+  function ChatStack({ navigation }) {
+    return (
+        <Stack.Navigator initialRouteName="Chat">
+          <Stack.Screen
+            name="Chat"
+            component={Chat}
+            options={{
+              title: 'Chat',
               headerLeft: ()=> <NavigationDrawerStructure navigationProps={navigation} />,
               headerStyle: {backgroundColor: 'aqua',height: 55 },
               headerTintColor: 'orange', 

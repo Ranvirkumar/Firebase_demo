@@ -68,6 +68,18 @@ export default class CustomSidebarMenu extends Component {
               <DrawerItem
                 icon={() => (
                   <Icon
+                    name="sms"
+                    color="blue"
+                    size={24}
+                  />
+                )}
+                label="Chat"
+                labelStyle={{ color: "brown", fontSize: 20, fontWeight: "bold", fontStyle: "italic" }}
+                onPress={() => { this.props.navigation.navigate('Chat') }}
+              />
+              <DrawerItem
+                icon={() => (
+                  <Icon
                     name="share-alt"
                     color="blue"
                     size={24}
